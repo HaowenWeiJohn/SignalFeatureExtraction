@@ -8,9 +8,9 @@ import pickle
 import numpy, scipy.io
 
 
-acc_data = np.loadtxt(open("original_data/acc_data.csv", "rb"), delimiter=",", skiprows=1)
-gyro_data = np.loadtxt(open("original_data/gyro_data.csv", "rb"), delimiter=",", skiprows=1)
-bt_data = np.loadtxt(open("original_data/bt_data.csv", "rb"), delimiter=",", skiprows=1)
+acc_data = np.loadtxt(open("../original_data/acc_data.csv", "rb"), delimiter=",", skiprows=1)
+gyro_data = np.loadtxt(open("../original_data/gyro_data.csv", "rb"), delimiter=",", skiprows=1)
+bt_data = np.loadtxt(open("../original_data/bt_data.csv", "rb"), delimiter=",", skiprows=1)
 
 data_acc_test = pd.DataFrame(acc_data[:,0:3], columns=["acc_x", "acc_y", "acc_z"])
 data_gyro_test = pd.DataFrame(gyro_data[:,0:3], columns=["gyro_x", "gyro_y", "gyro_z"])
@@ -56,9 +56,9 @@ scipy.io.savemat('all_test_features.mat', test_mdict)
 
 
 
-acc_data_train = np.loadtxt(open("original_data/acc_data_train.csv", "rb"), delimiter=",", skiprows=1)
-gyro_data_train = np.loadtxt(open("original_data/gyro_data_train.csv", "rb"), delimiter=",", skiprows=1)
-bt_data_train = np.loadtxt(open("original_data/bt_data_train.csv", "rb"), delimiter=",", skiprows=1)
+acc_data_train = np.loadtxt(open("../original_data/acc_data_train.csv", "rb"), delimiter=",", skiprows=1)
+gyro_data_train = np.loadtxt(open("../original_data/gyro_data_train.csv", "rb"), delimiter=",", skiprows=1)
+bt_data_train = np.loadtxt(open("../original_data/bt_data_train.csv", "rb"), delimiter=",", skiprows=1)
 
 data_acc_train = pd.DataFrame(acc_data_train[:,0:3], columns=["acc_x", "acc_y", "acc_z"])
 data_gyro_train = pd.DataFrame(gyro_data_train[:,0:3], columns=["gyro_x", "gyro_y", "gyro_z"])
