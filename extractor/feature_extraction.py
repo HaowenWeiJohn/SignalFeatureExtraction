@@ -40,19 +40,31 @@ impute(bt_tx_test)
 impute(bt_time_test)
 
 
-test_mdict={ 'acc_x_test': np.array(acc_x_test),
-        'acc_y_test': np.array(acc_y_test),
-        'acc_z_test': np.array(acc_z_test),
-        'gyro_x_test': np.array(gyro_x_test),
-        'gyro_y_test': np.array(gyro_y_test),
-        'gyro_z_test': np.array(gyro_z_test),
-        'bt_rx_test': np.array(bt_rx_test),
-        'bt_tx_test': np.array(bt_tx_test),
-        'bt_time_test': np.array(bt_time_test)
+# test_mdict={ 'acc_x_test': np.array(acc_x_test),
+#         'acc_y_test': np.array(acc_y_test),
+#         'acc_z_test': np.array(acc_z_test),
+#         'gyro_x_test': np.array(gyro_x_test),
+#         'gyro_y_test': np.array(gyro_y_test),
+#         'gyro_z_test': np.array(gyro_z_test),
+#         'bt_rx_test': np.array(bt_rx_test),
+#         'bt_tx_test': np.array(bt_tx_test),
+#         'bt_time_test': np.array(bt_time_test)
+#        }
+
+
+test_mdict={ 'acc_x_test': acc_x_test,
+        'acc_y_test': acc_y_test,
+        'acc_z_test': acc_z_test,
+        'gyro_x_test': gyro_x_test,
+        'gyro_y_test': gyro_y_test,
+        'gyro_z_test': gyro_z_test,
+        'bt_rx_test': bt_rx_test,
+        'bt_tx_test': bt_tx_test,
+        'bt_time_test': bt_time_test
        }
 
 
-scipy.io.savemat('../feature_data/all_test_features.mat', test_mdict)
+scipy.io.savemat('../feature_data/all_test_features.mat', test_mdict, long_field_names=True)
 
 
 
@@ -88,17 +100,29 @@ impute(bt_time_train)
 
 
 
-train_mdict={ 'acc_x_train': np.array(acc_x_train),
-        'acc_y_train': np.array(acc_y_train),
-        'acc_z_train': np.array(acc_z_train),
-        'gyro_x_train': np.array(gyro_x_train),
-        'gyro_y_train': np.array(gyro_y_train),
-        'gyro_z_train': np.array(gyro_z_train),
-        'bt_rx_train': np.array(bt_rx_train),
-        'bt_tx_train': np.array(bt_tx_train),
-        'bt_time_train': np.array(bt_time_train)
+# train_mdict={ 'acc_x_train': np.array(acc_x_train),
+#         'acc_y_train': np.array(acc_y_train),
+#         'acc_z_train': np.array(acc_z_train),
+#         'gyro_x_train': np.array(gyro_x_train),
+#         'gyro_y_train': np.array(gyro_y_train),
+#         'gyro_z_train': np.array(gyro_z_train),
+#         'bt_rx_train': np.array(bt_rx_train),
+#         'bt_tx_train': np.array(bt_tx_train),
+#         'bt_time_train': np.array(bt_time_train)
+#        }
+
+train_mdict={ 'acc_x_train': acc_x_train,
+        'acc_y_train': acc_y_train,
+        'acc_z_train': acc_z_train,
+        'gyro_x_train': gyro_x_train,
+        'gyro_y_train': gyro_y_train,
+        'gyro_z_train': gyro_z_train,
+        'bt_rx_train': bt_rx_train,
+        'bt_tx_train': bt_tx_train,
+        'bt_time_train': bt_time_train
        }
 
 
-scipy.io.savemat('../feature_data/all_train_features.mat', train_mdict)
+
+scipy.io.savemat('../feature_data/all_train_features.mat', train_mdict, long_field_names=True)
 
