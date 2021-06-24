@@ -5,7 +5,7 @@
 #SBATCH --error=%x_%j.err
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --mem=300G
+#SBATCH --mem=350G
 #SBATCH --cpus-per-task=5
 
 #SBATCH --partition=long
