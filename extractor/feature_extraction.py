@@ -52,7 +52,7 @@ test_mdict={ 'acc_x_test': np.array(acc_x_test),
        }
 
 
-scipy.io.savemat('all_test_features.mat', test_mdict)
+scipy.io.savemat('../feature_data/all_test_features.mat', test_mdict)
 
 
 
@@ -100,5 +100,5 @@ train_mdict={ 'acc_x_train': np.array(acc_x_train),
        }
 
 
-scipy.io.savemat('all_train_features.mat', train_mdict)
+scipy.io.savemat('../feature_data/all_train_features.mat', train_mdict)
 
