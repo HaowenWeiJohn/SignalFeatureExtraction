@@ -1,0 +1,2549 @@
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:26<17:15, 26.55s/it]Feature Extraction:   5%|▌         | 2/40 [00:27<07:07, 11.25s/it]Feature Extraction:   8%|▊         | 3/40 [00:30<04:48,  7.80s/it]Feature Extraction:  10%|█         | 4/40 [00:31<03:01,  5.03s/it]Feature Extraction:  12%|█▎        | 5/40 [00:32<02:00,  3.44s/it]Feature Extraction:  15%|█▌        | 6/40 [00:32<01:24,  2.48s/it]Feature Extraction:  18%|█▊        | 7/40 [00:34<01:10,  2.14s/it]Feature Extraction:  20%|██        | 8/40 [00:35<00:59,  1.85s/it]Feature Extraction:  22%|██▎       | 9/40 [00:55<03:50,  7.44s/it]Feature Extraction:  25%|██▌       | 10/40 [00:55<02:39,  5.31s/it]Feature Extraction:  28%|██▊       | 11/40 [00:56<01:57,  4.05s/it]Feature Extraction:  30%|███       | 12/40 [01:00<01:45,  3.77s/it]Feature Extraction:  32%|███▎      | 13/40 [01:03<01:38,  3.67s/it]Feature Extraction:  35%|███▌      | 14/40 [01:05<01:20,  3.08s/it]Feature Extraction:  38%|███▊      | 15/40 [01:07<01:13,  2.96s/it]Feature Extraction:  40%|████      | 16/40 [01:09<00:59,  2.46s/it]Feature Extraction:  42%|████▎     | 17/40 [01:24<02:24,  6.28s/it]Feature Extraction:  45%|████▌     | 18/40 [01:25<01:41,  4.59s/it]Feature Extraction:  48%|████▊     | 19/40 [01:27<01:23,  3.98s/it]Feature Extraction:  50%|█████     | 20/40 [01:29<01:07,  3.40s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:35<01:17,  4.06s/it]Feature Extraction:  55%|█████▌    | 22/40 [01:35<00:53,  3.00s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:37<00:44,  2.64s/it]Feature Extraction:  60%|██████    | 24/40 [01:40<00:42,  2.64s/it]Feature Extraction:  62%|██████▎   | 25/40 [01:52<01:24,  5.61s/it]Feature Extraction:  65%|██████▌   | 26/40 [01:58<01:18,  5.64s/it]Feature Extraction:  68%|██████▊   | 27/40 [01:59<00:54,  4.19s/it]Feature Extraction:  70%|███████   | 28/40 [02:01<00:42,  3.57s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:05<00:42,  3.83s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:06<00:28,  2.88s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:07<00:21,  2.43s/it]Feature Extraction:  80%|████████  | 32/40 [02:09<00:17,  2.17s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:24<00:42,  6.03s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:27<00:30,  5.08s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:30<00:23,  4.64s/it]Feature Extraction:  90%|█████████ | 36/40 [02:31<00:13,  3.33s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:31<00:07,  2.50s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:33<00:04,  2.32s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:33<00:01,  1.70s/it]Feature Extraction: 100%|██████████| 40/40 [02:34<00:00,  1.45s/it]Feature Extraction: 100%|██████████| 40/40 [02:34<00:00,  3.87s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:26<16:56, 26.05s/it]Feature Extraction:   5%|▌         | 2/40 [00:28<07:34, 11.97s/it]Feature Extraction:   8%|▊         | 3/40 [00:30<04:47,  7.78s/it]Feature Extraction:  10%|█         | 4/40 [00:31<03:03,  5.09s/it]Feature Extraction:  12%|█▎        | 5/40 [00:33<02:19,  3.99s/it]Feature Extraction:  15%|█▌        | 6/40 [00:34<01:30,  2.67s/it]Feature Extraction:  18%|█▊        | 7/40 [00:35<01:15,  2.30s/it]Feature Extraction:  20%|██        | 8/40 [00:36<00:55,  1.75s/it]Feature Extraction:  22%|██▎       | 9/40 [00:52<03:13,  6.24s/it]Feature Extraction:  25%|██▌       | 10/40 [00:54<02:27,  4.93s/it]Feature Extraction:  28%|██▊       | 11/40 [01:03<03:00,  6.21s/it]Feature Extraction:  30%|███       | 12/40 [01:04<02:08,  4.58s/it]Feature Extraction:  32%|███▎      | 13/40 [01:05<01:33,  3.48s/it]Feature Extraction:  35%|███▌      | 14/40 [01:06<01:12,  2.79s/it]Feature Extraction:  38%|███▊      | 15/40 [01:06<00:53,  2.12s/it]Feature Extraction:  40%|████      | 16/40 [01:08<00:43,  1.82s/it]Feature Extraction:  42%|████▎     | 17/40 [01:23<02:14,  5.83s/it]Feature Extraction:  45%|████▌     | 18/40 [01:24<01:37,  4.43s/it]Feature Extraction:  48%|████▊     | 19/40 [01:31<01:52,  5.38s/it]Feature Extraction:  50%|█████     | 20/40 [01:34<01:31,  4.60s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:35<01:07,  3.53s/it]Feature Extraction:  55%|█████▌    | 22/40 [01:36<00:50,  2.82s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:38<00:42,  2.51s/it]Feature Extraction:  60%|██████    | 24/40 [01:40<00:35,  2.22s/it]Feature Extraction:  62%|██████▎   | 25/40 [01:57<01:39,  6.63s/it]Feature Extraction:  65%|██████▌   | 26/40 [01:59<01:12,  5.21s/it]Feature Extraction:  68%|██████▊   | 27/40 [01:59<00:50,  3.89s/it]Feature Extraction:  70%|███████   | 28/40 [02:01<00:38,  3.20s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:02<00:29,  2.64s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:10<00:42,  4.27s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:13<00:33,  3.68s/it]Feature Extraction:  80%|████████  | 32/40 [02:13<00:21,  2.68s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:28<00:44,  6.29s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:29<00:28,  4.68s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:30<00:18,  3.76s/it]Feature Extraction:  90%|█████████ | 36/40 [02:31<00:10,  2.73s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:31<00:05,  1.98s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:35<00:05,  2.71s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:38<00:02,  2.58s/it]Feature Extraction: 100%|██████████| 40/40 [02:38<00:00,  1.90s/it]Feature Extraction: 100%|██████████| 40/40 [02:38<00:00,  3.96s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:29<19:19, 29.72s/it]Feature Extraction:   5%|▌         | 2/40 [00:30<07:59, 12.61s/it]Feature Extraction:   8%|▊         | 3/40 [00:31<04:24,  7.15s/it]Feature Extraction:  10%|█         | 4/40 [00:31<02:43,  4.53s/it]Feature Extraction:  12%|█▎        | 5/40 [00:32<01:48,  3.10s/it]Feature Extraction:  15%|█▌        | 6/40 [00:32<01:19,  2.33s/it]Feature Extraction:  18%|█▊        | 7/40 [00:33<00:58,  1.76s/it]Feature Extraction:  20%|██        | 8/40 [00:35<00:56,  1.77s/it]Feature Extraction:  22%|██▎       | 9/40 [00:57<04:15,  8.23s/it]Feature Extraction:  25%|██▌       | 10/40 [00:58<03:00,  6.02s/it]Feature Extraction:  28%|██▊       | 11/40 [01:01<02:23,  4.94s/it]Feature Extraction:  30%|███       | 12/40 [01:03<01:53,  4.06s/it]Feature Extraction:  32%|███▎      | 13/40 [01:04<01:25,  3.16s/it]Feature Extraction:  35%|███▌      | 14/40 [01:04<00:59,  2.30s/it]Feature Extraction:  38%|███▊      | 15/40 [01:05<00:44,  1.79s/it]Feature Extraction:  40%|████      | 16/40 [01:07<00:42,  1.78s/it]Feature Extraction:  42%|████▎     | 17/40 [01:25<02:38,  6.89s/it]Feature Extraction:  45%|████▌     | 18/40 [01:29<02:06,  5.76s/it]Feature Extraction:  48%|████▊     | 19/40 [01:31<01:41,  4.85s/it]Feature Extraction:  50%|█████     | 20/40 [01:33<01:19,  3.98s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:35<01:04,  3.40s/it]Feature Extraction:  55%|█████▌    | 22/40 [01:36<00:46,  2.56s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:37<00:36,  2.13s/it]Feature Extraction:  60%|██████    | 24/40 [01:38<00:29,  1.84s/it]Feature Extraction:  62%|██████▎   | 25/40 [01:58<01:48,  7.24s/it]Feature Extraction:  65%|██████▌   | 26/40 [01:59<01:13,  5.25s/it]Feature Extraction:  68%|██████▊   | 27/40 [02:03<01:04,  4.96s/it]Feature Extraction:  70%|███████   | 28/40 [02:04<00:47,  3.96s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:06<00:36,  3.31s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:07<00:25,  2.56s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:10<00:23,  2.61s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:28<00:39,  5.71s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:31<00:29,  4.92s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:32<00:18,  3.80s/it]Feature Extraction:  90%|█████████ | 36/40 [02:32<00:11,  2.85s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:35<00:08,  2.88s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:36<00:04,  2.25s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:36<00:01,  1.68s/it]Feature Extraction: 100%|██████████| 40/40 [02:38<00:00,  1.82s/it]Feature Extraction: 100%|██████████| 40/40 [02:38<00:00,  3.96s/it]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_y__mean_abs_change' 'acc_y__mean_change'
+ 'acc_y__mean_second_derivative_central' ...
+ 'acc_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_x__mean_abs_change' 'acc_x__mean_change'
+ 'acc_x__mean_second_derivative_central' ...
+ 'acc_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_x__mean_abs_change' 'acc_x__mean_change'
+ 'acc_x__mean_second_derivative_central' ...
+ 'acc_y__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_y__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_y__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:28<18:30, 28.47s/it]Feature Extraction:   5%|▌         | 2/40 [00:30<08:00, 12.65s/it]Feature Extraction:   8%|▊         | 3/40 [00:30<04:24,  7.16s/it]Feature Extraction:  10%|█         | 4/40 [00:31<02:40,  4.47s/it]Feature Extraction:  12%|█▎        | 5/40 [00:32<01:55,  3.31s/it]Feature Extraction:  15%|█▌        | 6/40 [00:33<01:33,  2.74s/it]Feature Extraction:  18%|█▊        | 7/40 [00:34<01:11,  2.17s/it]Feature Extraction:  20%|██        | 8/40 [00:35<00:58,  1.82s/it]Feature Extraction:  22%|██▎       | 9/40 [00:55<03:46,  7.30s/it]Feature Extraction:  25%|██▌       | 10/40 [00:59<03:06,  6.21s/it]Feature Extraction:  28%|██▊       | 11/40 [01:01<02:30,  5.18s/it]Feature Extraction:  32%|███▎      | 13/40 [01:04<01:31,  3.39s/it]Feature Extraction:  35%|███▌      | 14/40 [01:05<01:11,  2.75s/it]Feature Extraction:  38%|███▊      | 15/40 [01:05<00:53,  2.16s/it]Feature Extraction:  40%|████      | 16/40 [01:08<00:55,  2.29s/it]Feature Extraction:  42%|████▎     | 17/40 [01:26<02:33,  6.66s/it]Feature Extraction:  45%|████▌     | 18/40 [01:27<01:54,  5.18s/it]Feature Extraction:  48%|████▊     | 19/40 [01:33<01:50,  5.24s/it]Feature Extraction:  50%|█████     | 20/40 [01:33<01:17,  3.86s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:36<01:08,  3.59s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:38<00:41,  2.42s/it]Feature Extraction:  60%|██████    | 24/40 [01:42<00:42,  2.63s/it]Feature Extraction:  62%|██████▎   | 25/40 [01:54<01:17,  5.17s/it]Feature Extraction:  65%|██████▌   | 26/40 [01:57<01:02,  4.47s/it]Feature Extraction:  68%|██████▊   | 27/40 [02:03<01:05,  5.02s/it]Feature Extraction:  70%|███████   | 28/40 [02:05<00:51,  4.27s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:06<00:34,  3.15s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:09<00:31,  3.15s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:12<00:28,  3.21s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:26<00:34,  4.86s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:26<00:22,  3.73s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:33<00:22,  4.52s/it]Feature Extraction:  90%|█████████ | 36/40 [02:34<00:14,  3.55s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:34<00:07,  2.63s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:35<00:04,  2.13s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:35<00:01,  1.59s/it]Feature Extraction: 100%|██████████| 40/40 [02:36<00:00,  1.20s/it]Feature Extraction: 100%|██████████| 40/40 [02:36<00:00,  3.90s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:26<17:25, 26.82s/it]Feature Extraction:   5%|▌         | 2/40 [00:30<08:18, 13.11s/it]Feature Extraction:   8%|▊         | 3/40 [00:30<04:28,  7.27s/it]Feature Extraction:  10%|█         | 4/40 [00:31<02:43,  4.55s/it]Feature Extraction:  12%|█▎        | 5/40 [00:32<02:05,  3.59s/it]Feature Extraction:  15%|█▌        | 6/40 [00:33<01:24,  2.50s/it]Feature Extraction:  18%|█▊        | 7/40 [00:35<01:14,  2.26s/it]Feature Extraction:  20%|██        | 8/40 [00:35<00:55,  1.74s/it]Feature Extraction:  22%|██▎       | 9/40 [00:53<03:33,  6.90s/it]Feature Extraction:  25%|██▌       | 10/40 [00:59<03:13,  6.46s/it]Feature Extraction:  28%|██▊       | 11/40 [01:03<02:44,  5.67s/it]Feature Extraction:  30%|███       | 12/40 [01:03<01:54,  4.08s/it]Feature Extraction:  32%|███▎      | 13/40 [01:04<01:19,  2.95s/it]Feature Extraction:  35%|███▌      | 14/40 [01:05<01:03,  2.46s/it]Feature Extraction:  38%|███▊      | 15/40 [01:06<00:49,  1.97s/it]Feature Extraction:  40%|████      | 16/40 [01:08<00:48,  2.00s/it]Feature Extraction:  42%|████▎     | 17/40 [01:23<02:17,  5.99s/it]Feature Extraction:  45%|████▌     | 18/40 [01:31<02:22,  6.49s/it]Feature Extraction:  48%|████▊     | 19/40 [01:33<01:49,  5.23s/it]Feature Extraction:  50%|█████     | 20/40 [01:34<01:20,  4.03s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:35<00:56,  2.99s/it]Feature Extraction:  55%|█████▌    | 22/40 [01:37<00:46,  2.59s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:37<00:33,  1.97s/it]Feature Extraction:  60%|██████    | 24/40 [01:38<00:27,  1.72s/it]Feature Extraction:  62%|██████▎   | 25/40 [01:56<01:40,  6.67s/it]Feature Extraction:  65%|██████▌   | 26/40 [01:59<01:14,  5.34s/it]Feature Extraction:  68%|██████▊   | 27/40 [02:02<01:02,  4.80s/it]Feature Extraction:  70%|███████   | 28/40 [02:07<00:58,  4.89s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:08<00:21,  2.34s/it]Feature Extraction:  80%|████████  | 32/40 [02:11<00:19,  2.46s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:27<00:39,  5.63s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:30<00:29,  4.91s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:31<00:19,  3.80s/it]Feature Extraction:  90%|█████████ | 36/40 [02:33<00:12,  3.25s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:35<00:08,  2.95s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:35<00:04,  2.21s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:36<00:01,  1.80s/it]Feature Extraction: 100%|██████████| 40/40 [02:37<00:00,  1.67s/it]Feature Extraction: 100%|██████████| 40/40 [02:37<00:00,  3.94s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:29<18:53, 29.07s/it]Feature Extraction:   5%|▌         | 2/40 [00:30<08:14, 13.02s/it]Feature Extraction:   8%|▊         | 3/40 [00:32<04:44,  7.68s/it]Feature Extraction:  12%|█▎        | 5/40 [00:32<02:02,  3.51s/it]Feature Extraction:  15%|█▌        | 6/40 [00:33<01:30,  2.66s/it]Feature Extraction:  18%|█▊        | 7/40 [00:33<01:08,  2.06s/it]Feature Extraction:  20%|██        | 8/40 [00:35<00:59,  1.85s/it]Feature Extraction:  22%|██▎       | 9/40 [00:58<04:09,  8.06s/it]Feature Extraction:  25%|██▌       | 10/40 [01:01<03:18,  6.63s/it]Feature Extraction:  28%|██▊       | 11/40 [01:01<02:18,  4.79s/it]Feature Extraction:  30%|███       | 12/40 [01:03<01:45,  3.76s/it]Feature Extraction:  32%|███▎      | 13/40 [01:04<01:20,  2.98s/it]Feature Extraction:  35%|███▌      | 14/40 [01:05<00:59,  2.30s/it]Feature Extraction:  38%|███▊      | 15/40 [01:05<00:44,  1.77s/it]Feature Extraction:  40%|████      | 16/40 [01:07<00:46,  1.93s/it]Feature Extraction:  42%|████▎     | 17/40 [01:28<02:55,  7.65s/it]Feature Extraction:  45%|████▌     | 18/40 [01:30<02:07,  5.78s/it]Feature Extraction:  48%|████▊     | 19/40 [01:32<01:39,  4.74s/it]Feature Extraction:  50%|█████     | 20/40 [01:33<01:10,  3.53s/it]Feature Extraction:  52%|█████▎    | 21/40 [01:34<00:50,  2.68s/it]Feature Extraction:  55%|█████▌    | 22/40 [01:35<00:43,  2.41s/it]Feature Extraction:  57%|█████▊    | 23/40 [01:37<00:37,  2.23s/it]Feature Extraction:  60%|██████    | 24/40 [01:38<00:29,  1.82s/it]Feature Extraction:  62%|██████▎   | 25/40 [02:00<01:55,  7.73s/it]Feature Extraction:  65%|██████▌   | 26/40 [02:01<01:23,  6.00s/it]Feature Extraction:  68%|██████▊   | 27/40 [02:03<01:01,  4.71s/it]Feature Extraction:  70%|███████   | 28/40 [02:05<00:45,  3.82s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:06<00:32,  2.99s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:07<00:22,  2.26s/it]Feature Extraction:  78%|███████▊  | 31/40 [02:08<00:17,  1.96s/it]Feature Extraction:  80%|████████  | 32/40 [02:08<00:12,  1.53s/it]Feature Extraction:  82%|████████▎ | 33/40 [02:29<00:50,  7.21s/it]Feature Extraction:  85%|████████▌ | 34/40 [02:31<00:34,  5.82s/it]Feature Extraction:  88%|████████▊ | 35/40 [02:32<00:20,  4.18s/it]Feature Extraction:  90%|█████████ | 36/40 [02:33<00:13,  3.46s/it]Feature Extraction:  92%|█████████▎| 37/40 [02:34<00:07,  2.53s/it]Feature Extraction:  95%|█████████▌| 38/40 [02:35<00:04,  2.26s/it]Feature Extraction:  98%|█████████▊| 39/40 [02:36<00:01,  1.73s/it]Feature Extraction: 100%|██████████| 40/40 [02:37<00:00,  1.43s/it]Feature Extraction: 100%|██████████| 40/40 [02:37<00:00,  3.93s/it]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_y__mean_abs_change' 'gyro_y__mean_change'
+ 'gyro_y__mean_second_derivative_central' ...
+ 'gyro_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_x__mean_abs_change' 'gyro_x__mean_change'
+ 'gyro_x__mean_second_derivative_central' ...
+ 'gyro_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_x__mean_abs_change' 'gyro_x__mean_change'
+ 'gyro_x__mean_second_derivative_central' ...
+ 'gyro_y__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_y__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_y__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:05<03:51,  5.93s/it]Feature Extraction:   5%|▌         | 2/40 [00:06<01:39,  2.61s/it]Feature Extraction:   8%|▊         | 3/40 [00:06<00:54,  1.48s/it]Feature Extraction:  10%|█         | 4/40 [00:06<00:34,  1.05it/s]Feature Extraction:  12%|█▎        | 5/40 [00:06<00:22,  1.52it/s]Feature Extraction:  15%|█▌        | 6/40 [00:06<00:16,  2.08it/s]Feature Extraction:  18%|█▊        | 7/40 [00:06<00:13,  2.50it/s]Feature Extraction:  20%|██        | 8/40 [00:07<00:17,  1.85it/s]Feature Extraction:  22%|██▎       | 9/40 [00:11<00:49,  1.61s/it]Feature Extraction:  25%|██▌       | 10/40 [00:12<00:39,  1.31s/it]Feature Extraction:  28%|██▊       | 11/40 [00:12<00:27,  1.05it/s]Feature Extraction:  32%|███▎      | 13/40 [00:12<00:15,  1.78it/s]Feature Extraction:  35%|███▌      | 14/40 [00:13<00:13,  1.86it/s]Feature Extraction:  38%|███▊      | 15/40 [00:14<00:14,  1.70it/s]Feature Extraction:  40%|████      | 16/40 [00:14<00:11,  2.03it/s]Feature Extraction:  42%|████▎     | 17/40 [00:16<00:23,  1.01s/it]Feature Extraction:  45%|████▌     | 18/40 [00:18<00:30,  1.36s/it]Feature Extraction:  48%|████▊     | 19/40 [00:19<00:24,  1.15s/it]Feature Extraction:  50%|█████     | 20/40 [00:19<00:17,  1.17it/s]Feature Extraction:  52%|█████▎    | 21/40 [00:19<00:13,  1.40it/s]Feature Extraction:  57%|█████▊    | 23/40 [00:20<00:07,  2.31it/s]Feature Extraction:  60%|██████    | 24/40 [00:21<00:11,  1.42it/s]Feature Extraction:  62%|██████▎   | 25/40 [00:21<00:08,  1.72it/s]Feature Extraction:  65%|██████▌   | 26/40 [00:24<00:16,  1.19s/it]Feature Extraction:  68%|██████▊   | 27/40 [00:25<00:12,  1.08it/s]Feature Extraction:  72%|███████▎  | 29/40 [00:25<00:06,  1.75it/s]Feature Extraction:  75%|███████▌  | 30/40 [00:26<00:06,  1.54it/s]Feature Extraction:  78%|███████▊  | 31/40 [00:26<00:04,  1.81it/s]Feature Extraction:  80%|████████  | 32/40 [00:27<00:05,  1.39it/s]Feature Extraction:  82%|████████▎ | 33/40 [00:28<00:05,  1.22it/s]Feature Extraction:  85%|████████▌ | 34/40 [00:29<00:04,  1.22it/s]Feature Extraction:  88%|████████▊ | 35/40 [00:29<00:03,  1.39it/s]Feature Extraction:  90%|█████████ | 36/40 [00:30<00:02,  1.80it/s]Feature Extraction:  92%|█████████▎| 37/40 [00:30<00:01,  1.95it/s]Feature Extraction:  95%|█████████▌| 38/40 [00:30<00:00,  2.50it/s]Feature Extraction:  98%|█████████▊| 39/40 [00:30<00:00,  2.73it/s]Feature Extraction: 100%|██████████| 40/40 [00:31<00:00,  2.38it/s]Feature Extraction: 100%|██████████| 40/40 [00:31<00:00,  1.27it/s]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:01<01:03,  1.64s/it]Feature Extraction:   5%|▌         | 2/40 [00:02<00:37,  1.02it/s]Feature Extraction:   8%|▊         | 3/40 [00:02<00:21,  1.73it/s]Feature Extraction:  15%|█▌        | 6/40 [00:02<00:10,  3.31it/s]Feature Extraction:  20%|██        | 8/40 [00:04<00:16,  1.90it/s]Feature Extraction:  22%|██▎       | 9/40 [00:04<00:14,  2.11it/s]Feature Extraction:  25%|██▌       | 10/40 [00:05<00:13,  2.15it/s]Feature Extraction:  30%|███       | 12/40 [00:05<00:09,  2.99it/s]Feature Extraction:  35%|███▌      | 14/40 [00:05<00:07,  3.67it/s]Feature Extraction:  38%|███▊      | 15/40 [00:05<00:05,  4.18it/s]Feature Extraction:  40%|████      | 16/40 [00:07<00:14,  1.71it/s]Feature Extraction:  45%|████▌     | 18/40 [00:08<00:09,  2.26it/s]Feature Extraction:  48%|████▊     | 19/40 [00:08<00:07,  2.68it/s]Feature Extraction:  50%|█████     | 20/40 [00:08<00:07,  2.79it/s]Feature Extraction:  55%|█████▌    | 22/40 [00:09<00:05,  3.34it/s]Feature Extraction:  57%|█████▊    | 23/40 [00:09<00:04,  3.90it/s]Feature Extraction:  60%|██████    | 24/40 [00:10<00:09,  1.78it/s]Feature Extraction:  62%|██████▎   | 25/40 [00:10<00:07,  1.97it/s]Feature Extraction:  68%|██████▊   | 27/40 [00:11<00:04,  2.89it/s]Feature Extraction:  70%|███████   | 28/40 [00:11<00:04,  2.90it/s]Feature Extraction:  72%|███████▎  | 29/40 [00:11<00:03,  2.98it/s]Feature Extraction:  75%|███████▌  | 30/40 [00:12<00:04,  2.07it/s]Feature Extraction:  78%|███████▊  | 31/40 [00:12<00:03,  2.61it/s]Feature Extraction:  80%|████████  | 32/40 [00:13<00:03,  2.61it/s]Feature Extraction:  85%|████████▌ | 34/40 [00:13<00:01,  3.17it/s]Feature Extraction:  88%|████████▊ | 35/40 [00:13<00:01,  3.74it/s]Feature Extraction:  90%|█████████ | 36/40 [00:14<00:00,  4.16it/s]Feature Extraction:  95%|█████████▌| 38/40 [00:14<00:00,  5.98it/s]Feature Extraction:  98%|█████████▊| 39/40 [00:14<00:00,  5.73it/s]Feature Extraction: 100%|██████████| 40/40 [00:15<00:00,  3.01it/s]Feature Extraction: 100%|██████████| 40/40 [00:15<00:00,  2.64it/s]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:04<02:58,  4.59s/it]Feature Extraction:   5%|▌         | 2/40 [00:05<01:35,  2.53s/it]Feature Extraction:   8%|▊         | 3/40 [00:06<01:00,  1.64s/it]Feature Extraction:  10%|█         | 4/40 [00:06<00:37,  1.04s/it]Feature Extraction:  12%|█▎        | 5/40 [00:06<00:25,  1.39it/s]Feature Extraction:  15%|█▌        | 6/40 [00:06<00:19,  1.74it/s]Feature Extraction:  18%|█▊        | 7/40 [00:07<00:18,  1.83it/s]Feature Extraction:  20%|██        | 8/40 [00:08<00:20,  1.54it/s]Feature Extraction:  22%|██▎       | 9/40 [00:11<00:44,  1.45s/it]Feature Extraction:  25%|██▌       | 10/40 [00:11<00:31,  1.06s/it]Feature Extraction:  28%|██▊       | 11/40 [00:12<00:28,  1.01it/s]Feature Extraction:  30%|███       | 12/40 [00:12<00:20,  1.38it/s]Feature Extraction:  32%|███▎      | 13/40 [00:12<00:17,  1.58it/s]Feature Extraction:  35%|███▌      | 14/40 [00:13<00:13,  1.98it/s]Feature Extraction:  38%|███▊      | 15/40 [00:13<00:09,  2.52it/s]Feature Extraction:  40%|████      | 16/40 [00:13<00:08,  2.91it/s]Feature Extraction:  42%|████▎     | 17/40 [00:16<00:28,  1.22s/it]Feature Extraction:  45%|████▌     | 18/40 [00:17<00:26,  1.21s/it]Feature Extraction:  48%|████▊     | 19/40 [00:18<00:18,  1.11it/s]Feature Extraction:  50%|█████     | 20/40 [00:18<00:13,  1.51it/s]Feature Extraction:  52%|█████▎    | 21/40 [00:18<00:09,  1.95it/s]Feature Extraction:  55%|█████▌    | 22/40 [00:18<00:07,  2.41it/s]Feature Extraction:  57%|█████▊    | 23/40 [00:19<00:08,  2.06it/s]Feature Extraction:  60%|██████    | 24/40 [00:20<00:11,  1.44it/s]Feature Extraction:  62%|██████▎   | 25/40 [00:23<00:22,  1.47s/it]Feature Extraction:  65%|██████▌   | 26/40 [00:24<00:16,  1.15s/it]Feature Extraction:  68%|██████▊   | 27/40 [00:24<00:11,  1.18it/s]Feature Extraction:  70%|███████   | 28/40 [00:24<00:07,  1.57it/s]Feature Extraction:  72%|███████▎  | 29/40 [00:24<00:06,  1.60it/s]Feature Extraction:  75%|███████▌  | 30/40 [00:25<00:04,  2.13it/s]Feature Extraction:  78%|███████▊  | 31/40 [00:25<00:03,  2.61it/s]Feature Extraction:  80%|████████  | 32/40 [00:26<00:03,  2.01it/s]Feature Extraction:  82%|████████▎ | 33/40 [00:28<00:08,  1.21s/it]Feature Extraction:  85%|████████▌ | 34/40 [00:29<00:06,  1.14s/it]Feature Extraction:  88%|████████▊ | 35/40 [00:30<00:04,  1.10it/s]Feature Extraction:  90%|█████████ | 36/40 [00:30<00:02,  1.48it/s]Feature Extraction:  95%|█████████▌| 38/40 [00:30<00:00,  2.43it/s]Feature Extraction:  98%|█████████▊| 39/40 [00:30<00:00,  2.87it/s]Feature Extraction: 100%|██████████| 40/40 [00:31<00:00,  2.99it/s]Feature Extraction: 100%|██████████| 40/40 [00:31<00:00,  1.29it/s]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_tx__autocorrelation__lag_0' 'bt_tx__autocorrelation__lag_1'
+ 'bt_tx__autocorrelation__lag_2' 'bt_tx__autocorrelation__lag_3'
+ 'bt_tx__autocorrelation__lag_4' 'bt_tx__autocorrelation__lag_5'
+ 'bt_tx__autocorrelation__lag_6' 'bt_tx__autocorrelation__lag_7'
+ 'bt_tx__autocorrelation__lag_8' 'bt_tx__autocorrelation__lag_9'
+ 'bt_tx__partial_autocorrelation__lag_2'
+ 'bt_tx__partial_autocorrelation__lag_3'
+ 'bt_tx__partial_autocorrelation__lag_4'
+ 'bt_tx__partial_autocorrelation__lag_5'
+ 'bt_tx__partial_autocorrelation__lag_6'
+ 'bt_tx__partial_autocorrelation__lag_7'
+ 'bt_tx__partial_autocorrelation__lag_8'
+ 'bt_tx__partial_autocorrelation__lag_9'
+ 'bt_tx__cwt_coefficients__coeff_11__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__spkt_welch_density__coeff_8'
+ 'bt_tx__ar_coefficient__coeff_0__k_10'
+ 'bt_tx__ar_coefficient__coeff_1__k_10'
+ 'bt_tx__ar_coefficient__coeff_2__k_10'
+ 'bt_tx__ar_coefficient__coeff_3__k_10'
+ 'bt_tx__ar_coefficient__coeff_4__k_10'
+ 'bt_tx__ar_coefficient__coeff_5__k_10'
+ 'bt_tx__ar_coefficient__coeff_6__k_10'
+ 'bt_tx__ar_coefficient__coeff_7__k_10'
+ 'bt_tx__ar_coefficient__coeff_8__k_10'
+ 'bt_tx__ar_coefficient__coeff_9__k_10'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_tx__fft_aggregated__aggtype_"skew"'
+ 'bt_tx__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_tx__friedrich_coefficients__coeff_0__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_1__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_2__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_3__m_3__r_30'
+ 'bt_tx__max_langevin_fixed_point__m_3__r_30'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__augmented_dickey_fuller__attr_"teststat"__autolag_"AIC"'
+ 'bt_tx__augmented_dickey_fuller__attr_"pvalue"__autolag_"AIC"'
+ 'bt_tx__query_similarity_count__query_None__threshold_0.0'
+ 'bt_tx__matrix_profile__feature_"min"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"max"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"mean"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"75"__threshold_0.98'
+ 'bt_time__autocorrelation__lag_0' 'bt_time__autocorrelation__lag_1'
+ 'bt_time__autocorrelation__lag_2' 'bt_time__autocorrelation__lag_3'
+ 'bt_time__autocorrelation__lag_4' 'bt_time__autocorrelation__lag_5'
+ 'bt_time__autocorrelation__lag_6' 'bt_time__autocorrelation__lag_7'
+ 'bt_time__autocorrelation__lag_8' 'bt_time__autocorrelation__lag_9'
+ 'bt_time__partial_autocorrelation__lag_2'
+ 'bt_time__partial_autocorrelation__lag_3'
+ 'bt_time__partial_autocorrelation__lag_4'
+ 'bt_time__partial_autocorrelation__lag_5'
+ 'bt_time__partial_autocorrelation__lag_6'
+ 'bt_time__partial_autocorrelation__lag_7'
+ 'bt_time__partial_autocorrelation__lag_8'
+ 'bt_time__partial_autocorrelation__lag_9'
+ 'bt_time__cwt_coefficients__coeff_11__w_2__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_11__w_5__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_11__w_10__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_11__w_20__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_12__w_2__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_12__w_5__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_12__w_10__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_12__w_20__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_13__w_2__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_13__w_5__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_13__w_10__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_13__w_20__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_14__w_2__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_14__w_5__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_14__w_10__widths_(2, 5, 10, 20)'
+ 'bt_time__cwt_coefficients__coeff_14__w_20__widths_(2, 5, 10, 20)'
+ 'bt_time__spkt_welch_density__coeff_8'
+ 'bt_time__ar_coefficient__coeff_0__k_10'
+ 'bt_time__ar_coefficient__coeff_1__k_10'
+ 'bt_time__ar_coefficient__coeff_2__k_10'
+ 'bt_time__ar_coefficient__coeff_3__k_10'
+ 'bt_time__ar_coefficient__coeff_4__k_10'
+ 'bt_time__ar_coefficient__coeff_5__k_10'
+ 'bt_time__ar_coefficient__coeff_6__k_10'
+ 'bt_time__ar_coefficient__coeff_7__k_10'
+ 'bt_time__ar_coefficient__coeff_8__k_10'
+ 'bt_time__ar_coefficient__coeff_9__k_10'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_6'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_7'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_8'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_9'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_10'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_11'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_12'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_13'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_14'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_15'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_16'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_17'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_18'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_19'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_20'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_21'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_22'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_23'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_24'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_25'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_6'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_7'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_8'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_9'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_10'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_11'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_12'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_13'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_14'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_15'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_16'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_17'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_18'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_19'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_20'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_21'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_22'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_23'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_24'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_25'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_6'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_7'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_8'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_9'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_10'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_11'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_12'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_13'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_14'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_15'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_16'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_17'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_18'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_19'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_20'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_21'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_22'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_23'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_24'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_25'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_6'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_7'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_8'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_9'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_10'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_11'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_12'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_13'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_14'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_15'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_16'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_17'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_18'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_19'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_20'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_21'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_22'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_23'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_24'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_25'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_time__fft_aggregated__aggtype_"skew"'
+ 'bt_time__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_time__friedrich_coefficients__coeff_0__m_3__r_30'
+ 'bt_time__friedrich_coefficients__coeff_1__m_3__r_30'
+ 'bt_time__friedrich_coefficients__coeff_2__m_3__r_30'
+ 'bt_time__friedrich_coefficients__coeff_3__m_3__r_30'
+ 'bt_time__max_langevin_fixed_point__m_3__r_30'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_time__augmented_dickey_fuller__attr_"teststat"__autolag_"AIC"'
+ 'bt_time__augmented_dickey_fuller__attr_"pvalue"__autolag_"AIC"'
+ 'bt_time__query_similarity_count__query_None__threshold_0.0'
+ 'bt_time__matrix_profile__feature_"min"__threshold_0.98'
+ 'bt_time__matrix_profile__feature_"max"__threshold_0.98'
+ 'bt_time__matrix_profile__feature_"mean"__threshold_0.98'
+ 'bt_time__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_time__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_time__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_time__fft_aggregated__aggtype_"skew"'
+ 'bt_time__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_time__query_similarity_count__query_None__threshold_0.0'
+ 'bt_rx__query_similarity_count__query_None__threshold_0.0'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_rx__autocorrelation__lag_0' 'bt_rx__autocorrelation__lag_1'
+ 'bt_rx__autocorrelation__lag_2' 'bt_rx__autocorrelation__lag_3'
+ 'bt_rx__autocorrelation__lag_4' 'bt_rx__autocorrelation__lag_5'
+ 'bt_rx__autocorrelation__lag_6' 'bt_rx__autocorrelation__lag_7'
+ 'bt_rx__autocorrelation__lag_8' 'bt_rx__autocorrelation__lag_9'
+ 'bt_rx__partial_autocorrelation__lag_2'
+ 'bt_rx__partial_autocorrelation__lag_3'
+ 'bt_rx__partial_autocorrelation__lag_4'
+ 'bt_rx__partial_autocorrelation__lag_5'
+ 'bt_rx__partial_autocorrelation__lag_6'
+ 'bt_rx__partial_autocorrelation__lag_7'
+ 'bt_rx__partial_autocorrelation__lag_8'
+ 'bt_rx__partial_autocorrelation__lag_9'
+ 'bt_rx__cwt_coefficients__coeff_11__w_2__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_11__w_5__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_11__w_10__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_11__w_20__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_12__w_2__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_12__w_5__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_12__w_10__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_12__w_20__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_13__w_2__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_13__w_5__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_13__w_10__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_13__w_20__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_14__w_2__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_14__w_5__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_14__w_10__widths_(2, 5, 10, 20)'
+ 'bt_rx__cwt_coefficients__coeff_14__w_20__widths_(2, 5, 10, 20)'
+ 'bt_rx__spkt_welch_density__coeff_8'
+ 'bt_rx__ar_coefficient__coeff_0__k_10'
+ 'bt_rx__ar_coefficient__coeff_1__k_10'
+ 'bt_rx__ar_coefficient__coeff_2__k_10'
+ 'bt_rx__ar_coefficient__coeff_3__k_10'
+ 'bt_rx__ar_coefficient__coeff_4__k_10'
+ 'bt_rx__ar_coefficient__coeff_5__k_10'
+ 'bt_rx__ar_coefficient__coeff_6__k_10'
+ 'bt_rx__ar_coefficient__coeff_7__k_10'
+ 'bt_rx__ar_coefficient__coeff_8__k_10'
+ 'bt_rx__ar_coefficient__coeff_9__k_10'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_6'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_7'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_8'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_9'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_10'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_11'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_12'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_13'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_14'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_15'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_16'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_17'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_18'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_19'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_20'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_21'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_22'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_23'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_24'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_25'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_rx__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_6'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_7'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_8'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_9'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_10'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_11'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_12'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_13'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_14'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_15'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_16'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_17'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_18'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_19'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_20'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_21'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_22'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_23'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_24'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_25'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_rx__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_6'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_7'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_8'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_9'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_10'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_11'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_12'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_13'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_14'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_15'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_16'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_17'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_18'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_19'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_20'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_21'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_22'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_23'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_24'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_25'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_rx__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_6'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_7'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_8'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_9'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_10'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_11'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_12'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_13'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_14'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_15'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_16'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_17'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_18'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_19'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_20'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_21'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_22'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_23'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_24'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_25'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_rx__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_rx__fft_aggregated__aggtype_"skew"'
+ 'bt_rx__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_rx__friedrich_coefficients__coeff_0__m_3__r_30'
+ 'bt_rx__friedrich_coefficients__coeff_1__m_3__r_30'
+ 'bt_rx__friedrich_coefficients__coeff_2__m_3__r_30'
+ 'bt_rx__friedrich_coefficients__coeff_3__m_3__r_30'
+ 'bt_rx__max_langevin_fixed_point__m_3__r_30'
+ 'bt_rx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_rx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_rx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_rx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_rx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_rx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_rx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_rx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_rx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_rx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_rx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_rx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_rx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_rx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_rx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_rx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_rx__augmented_dickey_fuller__attr_"teststat"__autolag_"AIC"'
+ 'bt_rx__augmented_dickey_fuller__attr_"pvalue"__autolag_"AIC"'
+ 'bt_rx__query_similarity_count__query_None__threshold_0.0'
+ 'bt_rx__matrix_profile__feature_"min"__threshold_0.98'
+ 'bt_rx__matrix_profile__feature_"max"__threshold_0.98'
+ 'bt_rx__matrix_profile__feature_"mean"__threshold_0.98'
+ 'bt_rx__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_rx__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_rx__matrix_profile__feature_"75"__threshold_0.98'
+ 'bt_tx__autocorrelation__lag_0' 'bt_tx__autocorrelation__lag_1'
+ 'bt_tx__autocorrelation__lag_2' 'bt_tx__autocorrelation__lag_3'
+ 'bt_tx__autocorrelation__lag_4' 'bt_tx__autocorrelation__lag_5'
+ 'bt_tx__autocorrelation__lag_6' 'bt_tx__autocorrelation__lag_7'
+ 'bt_tx__autocorrelation__lag_8' 'bt_tx__autocorrelation__lag_9'
+ 'bt_tx__partial_autocorrelation__lag_2'
+ 'bt_tx__partial_autocorrelation__lag_3'
+ 'bt_tx__partial_autocorrelation__lag_4'
+ 'bt_tx__partial_autocorrelation__lag_5'
+ 'bt_tx__partial_autocorrelation__lag_6'
+ 'bt_tx__partial_autocorrelation__lag_7'
+ 'bt_tx__partial_autocorrelation__lag_8'
+ 'bt_tx__partial_autocorrelation__lag_9'
+ 'bt_tx__cwt_coefficients__coeff_11__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_11__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_12__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_13__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_2__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_5__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_10__widths_(2, 5, 10, 20)'
+ 'bt_tx__cwt_coefficients__coeff_14__w_20__widths_(2, 5, 10, 20)'
+ 'bt_tx__spkt_welch_density__coeff_8'
+ 'bt_tx__ar_coefficient__coeff_0__k_10'
+ 'bt_tx__ar_coefficient__coeff_1__k_10'
+ 'bt_tx__ar_coefficient__coeff_2__k_10'
+ 'bt_tx__ar_coefficient__coeff_3__k_10'
+ 'bt_tx__ar_coefficient__coeff_4__k_10'
+ 'bt_tx__ar_coefficient__coeff_5__k_10'
+ 'bt_tx__ar_coefficient__coeff_6__k_10'
+ 'bt_tx__ar_coefficient__coeff_7__k_10'
+ 'bt_tx__ar_coefficient__coeff_8__k_10'
+ 'bt_tx__ar_coefficient__coeff_9__k_10'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_6'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_7'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_8'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_9'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_10'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_11'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_12'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_13'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_14'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_15'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_16'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_17'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_18'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_19'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_20'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_21'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_22'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_23'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_24'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_25'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_tx__fft_aggregated__aggtype_"skew"'
+ 'bt_tx__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_tx__friedrich_coefficients__coeff_0__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_1__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_2__m_3__r_30'
+ 'bt_tx__friedrich_coefficients__coeff_3__m_3__r_30'
+ 'bt_tx__max_langevin_fixed_point__m_3__r_30'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__augmented_dickey_fuller__attr_"teststat"__autolag_"AIC"'
+ 'bt_tx__augmented_dickey_fuller__attr_"pvalue"__autolag_"AIC"'
+ 'bt_tx__query_similarity_count__query_None__threshold_0.0'
+ 'bt_tx__matrix_profile__feature_"min"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"max"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"mean"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:12<1:25:59, 132.31s/it]Feature Extraction:   5%|▌         | 2/40 [02:14<35:23, 55.89s/it]   Feature Extraction:   8%|▊         | 3/40 [02:16<19:21, 31.39s/it]Feature Extraction:  10%|█         | 4/40 [02:19<11:55, 19.86s/it]Feature Extraction:  15%|█▌        | 6/40 [02:21<05:35,  9.88s/it]Feature Extraction:  18%|█▊        | 7/40 [02:22<04:08,  7.52s/it]Feature Extraction:  20%|██        | 8/40 [02:24<03:07,  5.87s/it]Feature Extraction:  22%|██▎       | 9/40 [04:05<17:10, 33.25s/it]Feature Extraction:  25%|██▌       | 10/40 [04:36<16:15, 32.53s/it]Feature Extraction:  28%|██▊       | 11/40 [04:38<11:23, 23.59s/it]Feature Extraction:  30%|███       | 12/40 [04:40<08:03, 17.27s/it]Feature Extraction:  32%|███▎      | 13/40 [04:41<05:37, 12.49s/it]Feature Extraction:  35%|███▌      | 14/40 [04:43<04:01,  9.28s/it]Feature Extraction:  38%|███▊      | 15/40 [04:52<03:54,  9.36s/it]Feature Extraction:  40%|████      | 16/40 [04:55<02:55,  7.32s/it]Feature Extraction:  42%|████▎     | 17/40 [06:03<09:49, 25.61s/it]Feature Extraction:  45%|████▌     | 18/40 [06:41<10:41, 29.14s/it]Feature Extraction:  48%|████▊     | 19/40 [06:57<08:53, 25.41s/it]Feature Extraction:  50%|█████     | 20/40 [07:05<06:44, 20.20s/it]Feature Extraction:  52%|█████▎    | 21/40 [07:11<04:57, 15.68s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:13<03:29, 11.64s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:15<02:30,  8.85s/it]Feature Extraction:  60%|██████    | 24/40 [07:18<01:53,  7.10s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:23<06:04, 24.28s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:55<06:14, 26.77s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:07<04:51, 22.40s/it]Feature Extraction:  70%|███████   | 28/40 [09:13<03:28, 17.35s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:38<03:37, 19.80s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:41<02:26, 14.62s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:47<01:48, 12.05s/it]Feature Extraction:  80%|████████  | 32/40 [09:49<01:12,  9.12s/it]Feature Extraction:  82%|████████▎ | 33/40 [10:23<01:56, 16.65s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:01<02:16, 22.77s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:16<01:43, 20.64s/it]Feature Extraction:  90%|█████████ | 36/40 [11:20<01:01, 15.49s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:27<00:39, 13.13s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:31<00:20, 10.30s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:44<00:11, 11.09s/it]Feature Extraction: 100%|██████████| 40/40 [11:47<00:00,  8.57s/it]Feature Extraction: 100%|██████████| 40/40 [11:47<00:00, 17.68s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:15<1:27:57, 135.32s/it]Feature Extraction:   5%|▌         | 2/40 [02:17<36:04, 56.97s/it]   Feature Extraction:   8%|▊         | 3/40 [02:18<19:30, 31.64s/it]Feature Extraction:  10%|█         | 4/40 [02:20<11:46, 19.62s/it]Feature Extraction:  12%|█▎        | 5/40 [02:21<07:34, 12.99s/it]Feature Extraction:  15%|█▌        | 6/40 [02:22<05:08,  9.08s/it]Feature Extraction:  18%|█▊        | 7/40 [02:23<03:33,  6.48s/it]Feature Extraction:  20%|██        | 8/40 [02:25<02:41,  5.06s/it]Feature Extraction:  22%|██▎       | 9/40 [04:24<20:55, 40.51s/it]Feature Extraction:  25%|██▌       | 10/40 [04:29<14:42, 29.42s/it]Feature Extraction:  28%|██▊       | 11/40 [04:32<10:18, 21.34s/it]Feature Extraction:  30%|███       | 12/40 [04:38<07:53, 16.90s/it]Feature Extraction:  32%|███▎      | 13/40 [04:46<06:18, 14.03s/it]Feature Extraction:  35%|███▌      | 14/40 [04:48<04:35, 10.58s/it]Feature Extraction:  38%|███▊      | 15/40 [04:50<03:17,  7.90s/it]Feature Extraction:  40%|████      | 16/40 [04:57<03:00,  7.51s/it]Feature Extraction:  42%|████▎     | 17/40 [06:30<12:44, 33.26s/it]Feature Extraction:  45%|████▌     | 18/40 [06:43<09:56, 27.10s/it]Feature Extraction:  48%|████▊     | 19/40 [06:45<06:53, 19.71s/it]Feature Extraction:  50%|█████     | 20/40 [06:50<05:07, 15.39s/it]Feature Extraction:  52%|█████▎    | 21/40 [07:12<05:26, 17.18s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:14<03:50, 12.78s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:19<02:55, 10.35s/it]Feature Extraction:  60%|██████    | 24/40 [07:21<02:06,  7.93s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:37<07:02, 28.19s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:54<05:50, 25.07s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:03<04:23, 20.27s/it]Feature Extraction:  70%|███████   | 28/40 [09:06<03:00, 15.02s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:28<03:08, 17.10s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:34<02:16, 13.63s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:47<02:00, 13.43s/it]Feature Extraction:  80%|████████  | 32/40 [09:51<01:25, 10.70s/it]Feature Extraction:  82%|████████▎ | 33/40 [10:53<03:01, 25.97s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:08<02:17, 22.92s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:11<01:23, 16.73s/it]Feature Extraction:  90%|█████████ | 36/40 [11:13<00:49, 12.35s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:35<00:46, 15.41s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:38<00:23, 11.50s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:43<00:09,  9.70s/it]Feature Extraction: 100%|██████████| 40/40 [11:45<00:00,  7.28s/it]Feature Extraction: 100%|██████████| 40/40 [11:45<00:00, 17.64s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:03<1:20:06, 123.24s/it]Feature Extraction:   5%|▌         | 2/40 [02:11<35:15, 55.68s/it]   Feature Extraction:   8%|▊         | 3/40 [02:15<19:39, 31.89s/it]Feature Extraction:  10%|█         | 4/40 [02:19<12:42, 21.18s/it]Feature Extraction:  12%|█▎        | 5/40 [02:24<08:46, 15.04s/it]Feature Extraction:  15%|█▌        | 6/40 [02:25<05:58, 10.55s/it]Feature Extraction:  18%|█▊        | 7/40 [02:27<04:08,  7.53s/it]Feature Extraction:  20%|██        | 8/40 [02:34<04:01,  7.56s/it]Feature Extraction:  22%|██▎       | 9/40 [04:23<20:17, 39.29s/it]Feature Extraction:  25%|██▌       | 10/40 [04:25<13:52, 27.76s/it]Feature Extraction:  28%|██▊       | 11/40 [04:27<09:30, 19.67s/it]Feature Extraction:  30%|███       | 12/40 [04:30<06:47, 14.54s/it]Feature Extraction:  32%|███▎      | 13/40 [04:39<05:51, 13.03s/it]Feature Extraction:  35%|███▌      | 14/40 [04:41<04:12,  9.72s/it]Feature Extraction:  38%|███▊      | 15/40 [04:46<03:25,  8.23s/it]Feature Extraction:  40%|████      | 16/40 [04:58<03:46,  9.42s/it]Feature Extraction:  42%|████▎     | 17/40 [06:38<14:03, 36.65s/it]Feature Extraction:  45%|████▌     | 18/40 [06:40<09:38, 26.28s/it]Feature Extraction:  48%|████▊     | 19/40 [06:45<06:54, 19.74s/it]Feature Extraction:  50%|█████     | 20/40 [06:56<05:43, 17.17s/it]Feature Extraction:  52%|█████▎    | 21/40 [06:59<04:05, 12.92s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:00<02:47,  9.33s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:03<02:07,  7.48s/it]Feature Extraction:  60%|██████    | 24/40 [07:14<02:15,  8.48s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:50<08:43, 34.92s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:57<06:09, 26.42s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:02<04:20, 20.05s/it]Feature Extraction:  70%|███████   | 28/40 [09:11<03:18, 16.55s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:26<02:58, 16.22s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:26<01:54, 11.43s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:34<01:33, 10.41s/it]Feature Extraction:  80%|████████  | 32/40 [09:40<01:12,  9.06s/it]Feature Extraction:  82%|████████▎ | 33/40 [10:49<03:09, 27.07s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:07<02:25, 24.30s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:24<01:49, 21.91s/it]Feature Extraction:  90%|█████████ | 36/40 [11:27<01:05, 16.32s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:30<00:37, 12.45s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:32<00:18,  9.14s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:34<00:07,  7.15s/it]Feature Extraction: 100%|██████████| 40/40 [11:36<00:00,  5.47s/it]Feature Extraction: 100%|██████████| 40/40 [11:36<00:00, 17.40s/it]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_y__mean_abs_change' 'acc_y__mean_change'
+ 'acc_y__mean_second_derivative_central' ...
+ 'acc_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_x__mean_abs_change' 'acc_x__mean_change'
+ 'acc_x__mean_second_derivative_central' ...
+ 'acc_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['acc_x__mean_abs_change' 'acc_x__mean_change'
+ 'acc_x__mean_second_derivative_central' ...
+ 'acc_y__matrix_profile__feature_"median"__threshold_0.98'
+ 'acc_y__matrix_profile__feature_"25"__threshold_0.98'
+ 'acc_y__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:03<1:20:35, 123.98s/it]Feature Extraction:   5%|▌         | 2/40 [02:15<36:29, 57.62s/it]   Feature Extraction:   8%|▊         | 3/40 [02:18<20:12, 32.78s/it]Feature Extraction:  10%|█         | 4/40 [02:22<12:54, 21.50s/it]Feature Extraction:  12%|█▎        | 5/40 [02:22<08:03, 13.80s/it]Feature Extraction:  15%|█▌        | 6/40 [02:26<05:55, 10.47s/it]Feature Extraction:  18%|█▊        | 7/40 [02:27<04:05,  7.42s/it]Feature Extraction:  20%|██        | 8/40 [02:31<03:22,  6.33s/it]Feature Extraction:  22%|██▎       | 9/40 [04:03<16:58, 32.85s/it]Feature Extraction:  25%|██▌       | 10/40 [04:23<14:29, 28.99s/it]Feature Extraction:  28%|██▊       | 11/40 [04:33<11:14, 23.26s/it]Feature Extraction:  30%|███       | 12/40 [04:43<08:55, 19.11s/it]Feature Extraction:  32%|███▎      | 13/40 [04:46<06:28, 14.38s/it]Feature Extraction:  35%|███▌      | 14/40 [04:49<04:39, 10.75s/it]Feature Extraction:  38%|███▊      | 15/40 [04:58<04:20, 10.41s/it]Feature Extraction:  40%|████      | 16/40 [04:58<02:56,  7.33s/it]Feature Extraction:  42%|████▎     | 17/40 [06:23<11:42, 30.53s/it]Feature Extraction:  45%|████▌     | 18/40 [06:36<09:17, 25.34s/it]Feature Extraction:  48%|████▊     | 19/40 [06:48<07:29, 21.43s/it]Feature Extraction:  50%|█████     | 20/40 [06:52<05:19, 15.97s/it]Feature Extraction:  52%|█████▎    | 21/40 [07:06<04:53, 15.45s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:11<03:43, 12.42s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:24<03:29, 12.35s/it]Feature Extraction:  60%|██████    | 24/40 [07:28<02:38,  9.91s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:35<06:48, 27.26s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:52<05:36, 24.04s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:00<04:08, 19.13s/it]Feature Extraction:  70%|███████   | 28/40 [09:09<03:13, 16.15s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:23<02:49, 15.41s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:42<02:45, 16.56s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:44<01:50, 12.25s/it]Feature Extraction:  80%|████████  | 32/40 [09:50<01:23, 10.38s/it]Feature Extraction:  82%|████████▎ | 33/40 [10:46<02:48, 24.05s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:02<02:10, 21.67s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:05<01:20, 16.08s/it]Feature Extraction:  90%|█████████ | 36/40 [11:07<00:46, 11.73s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:18<00:34, 11.54s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:35<00:26, 13.27s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:41<00:11, 11.15s/it]Feature Extraction: 100%|██████████| 40/40 [11:42<00:00,  8.13s/it]Feature Extraction: 100%|██████████| 40/40 [11:42<00:00, 17.57s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:11<1:25:27, 131.46s/it]Feature Extraction:   5%|▌         | 2/40 [02:14<35:14, 55.64s/it]   Feature Extraction:   8%|▊         | 3/40 [02:16<19:26, 31.54s/it]Feature Extraction:  10%|█         | 4/40 [02:18<11:46, 19.64s/it]Feature Extraction:  12%|█▎        | 5/40 [02:19<07:39, 13.14s/it]Feature Extraction:  15%|█▌        | 6/40 [02:21<05:16,  9.31s/it]Feature Extraction:  18%|█▊        | 7/40 [02:22<03:37,  6.59s/it]Feature Extraction:  20%|██        | 8/40 [02:24<02:37,  4.92s/it]Feature Extraction:  22%|██▎       | 9/40 [04:21<20:44, 40.13s/it]Feature Extraction:  25%|██▌       | 10/40 [04:25<14:28, 28.96s/it]Feature Extraction:  28%|██▊       | 11/40 [04:32<10:39, 22.06s/it]Feature Extraction:  30%|███       | 12/40 [04:34<07:30, 16.10s/it]Feature Extraction:  32%|███▎      | 13/40 [04:38<05:36, 12.46s/it]Feature Extraction:  35%|███▌      | 14/40 [04:49<05:10, 11.95s/it]Feature Extraction:  38%|███▊      | 15/40 [04:49<03:33,  8.52s/it]Feature Extraction:  40%|████      | 16/40 [04:55<03:01,  7.57s/it]Feature Extraction:  42%|████▎     | 17/40 [06:33<13:18, 34.71s/it]Feature Extraction:  45%|████▌     | 18/40 [06:42<09:54, 27.00s/it]Feature Extraction:  48%|████▊     | 19/40 [06:49<07:20, 20.98s/it]Feature Extraction:  50%|█████     | 20/40 [06:53<05:19, 16.00s/it]Feature Extraction:  52%|█████▎    | 21/40 [06:55<03:42, 11.72s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:01<03:02, 10.13s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:16<03:17, 11.60s/it]Feature Extraction:  60%|██████    | 24/40 [07:22<02:38,  9.89s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:50<08:17, 33.16s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:59<06:03, 25.98s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:10<04:39, 21.50s/it]Feature Extraction:  70%|███████   | 28/40 [09:12<03:09, 15.83s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:23<02:37, 14.28s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:25<01:44, 10.49s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:33<01:28,  9.83s/it]Feature Extraction:  80%|████████  | 32/40 [09:36<01:01,  7.74s/it]Feature Extraction:  82%|████████▎ | 33/40 [10:54<03:22, 28.86s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:23<02:53, 28.85s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:24<01:43, 20.67s/it]Feature Extraction:  90%|█████████ | 36/40 [11:31<01:06, 16.55s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:33<00:35, 11.92s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:34<00:17,  8.67s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:35<00:06,  6.52s/it]Feature Extraction: 100%|██████████| 40/40 [11:36<00:00,  4.91s/it]Feature Extraction: 100%|██████████| 40/40 [11:36<00:00, 17.42s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [02:07<1:22:37, 127.12s/it]Feature Extraction:   5%|▌         | 2/40 [02:15<36:07, 57.05s/it]   Feature Extraction:   8%|▊         | 3/40 [02:21<20:50, 33.79s/it]Feature Extraction:  10%|█         | 4/40 [02:21<12:23, 20.64s/it]Feature Extraction:  12%|█▎        | 5/40 [02:23<08:01, 13.76s/it]Feature Extraction:  15%|█▌        | 6/40 [02:24<05:23,  9.52s/it]Feature Extraction:  18%|█▊        | 7/40 [02:30<04:30,  8.19s/it]Feature Extraction:  20%|██        | 8/40 [02:34<03:40,  6.89s/it]Feature Extraction:  22%|██▎       | 9/40 [04:29<21:06, 40.86s/it]Feature Extraction:  25%|██▌       | 10/40 [04:33<14:46, 29.55s/it]Feature Extraction:  28%|██▊       | 11/40 [04:34<09:55, 20.55s/it]Feature Extraction:  30%|███       | 12/40 [04:35<06:51, 14.69s/it]Feature Extraction:  32%|███▎      | 13/40 [04:36<04:45, 10.57s/it]Feature Extraction:  35%|███▌      | 14/40 [04:43<04:06,  9.49s/it]Feature Extraction:  38%|███▊      | 15/40 [04:45<03:03,  7.32s/it]Feature Extraction:  40%|████      | 16/40 [04:52<02:53,  7.22s/it]Feature Extraction:  42%|████▎     | 17/40 [06:30<13:10, 34.38s/it]Feature Extraction:  45%|████▌     | 18/40 [06:42<10:10, 27.73s/it]Feature Extraction:  48%|████▊     | 19/40 [06:56<08:18, 23.76s/it]Feature Extraction:  50%|█████     | 20/40 [07:02<06:02, 18.14s/it]Feature Extraction:  52%|█████▎    | 21/40 [07:04<04:15, 13.43s/it]Feature Extraction:  55%|█████▌    | 22/40 [07:15<03:48, 12.71s/it]Feature Extraction:  57%|█████▊    | 23/40 [07:20<02:55, 10.34s/it]Feature Extraction:  60%|██████    | 24/40 [07:20<01:56,  7.29s/it]Feature Extraction:  62%|██████▎   | 25/40 [08:50<08:03, 32.23s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:55<05:36, 24.03s/it]Feature Extraction:  68%|██████▊   | 27/40 [09:12<04:42, 21.75s/it]Feature Extraction:  70%|███████   | 28/40 [09:19<03:28, 17.39s/it]Feature Extraction:  72%|███████▎  | 29/40 [09:24<02:31, 13.81s/it]Feature Extraction:  75%|███████▌  | 30/40 [09:27<01:45, 10.56s/it]Feature Extraction:  78%|███████▊  | 31/40 [09:40<01:40, 11.18s/it]Feature Extraction:  80%|████████  | 32/40 [09:59<01:47, 13.42s/it]Feature Extraction:  82%|████████▎ | 33/40 [11:12<03:39, 31.41s/it]Feature Extraction:  85%|████████▌ | 34/40 [11:15<02:17, 22.90s/it]Feature Extraction:  88%|████████▊ | 35/40 [11:22<01:30, 18.17s/it]Feature Extraction:  90%|█████████ | 36/40 [11:28<00:58, 14.51s/it]Feature Extraction:  92%|█████████▎| 37/40 [11:30<00:32, 10.74s/it]Feature Extraction:  95%|█████████▌| 38/40 [11:39<00:20, 10.32s/it]Feature Extraction:  98%|█████████▊| 39/40 [11:42<00:07,  7.85s/it]Feature Extraction: 100%|██████████| 40/40 [11:45<00:00,  6.49s/it]Feature Extraction: 100%|██████████| 40/40 [11:45<00:00, 17.64s/it]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_y__mean_abs_change' 'gyro_y__mean_change'
+ 'gyro_y__mean_second_derivative_central' ...
+ 'gyro_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_x__mean_abs_change' 'gyro_x__mean_change'
+ 'gyro_x__mean_second_derivative_central' ...
+ 'gyro_z__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_z__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['gyro_x__mean_abs_change' 'gyro_x__mean_change'
+ 'gyro_x__mean_second_derivative_central' ...
+ 'gyro_y__matrix_profile__feature_"median"__threshold_0.98'
+ 'gyro_y__matrix_profile__feature_"25"__threshold_0.98'
+ 'gyro_y__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [01:58<1:16:42, 118.01s/it]Feature Extraction:   5%|▌         | 2/40 [01:59<31:27, 49.67s/it]   Feature Extraction:   8%|▊         | 3/40 [02:03<17:34, 28.49s/it]Feature Extraction:  10%|█         | 4/40 [02:05<10:59, 18.33s/it]Feature Extraction:  12%|█▎        | 5/40 [02:06<06:56, 11.91s/it]Feature Extraction:  15%|█▌        | 6/40 [02:08<04:50,  8.55s/it]Feature Extraction:  18%|█▊        | 7/40 [02:08<03:15,  5.92s/it]Feature Extraction:  20%|██        | 8/40 [02:10<02:22,  4.47s/it]Feature Extraction:  22%|██▎       | 9/40 [03:45<16:54, 32.73s/it]Feature Extraction:  25%|██▌       | 10/40 [03:57<13:17, 26.57s/it]Feature Extraction:  28%|██▊       | 11/40 [04:05<09:57, 20.60s/it]Feature Extraction:  30%|███       | 12/40 [04:08<07:14, 15.53s/it]Feature Extraction:  32%|███▎      | 13/40 [04:10<05:08, 11.43s/it]Feature Extraction:  35%|███▌      | 14/40 [04:12<03:36,  8.31s/it]Feature Extraction:  38%|███▊      | 15/40 [04:17<03:06,  7.48s/it]Feature Extraction:  40%|████      | 16/40 [04:22<02:38,  6.59s/it]Feature Extraction:  42%|████▎     | 17/40 [05:46<11:28, 29.92s/it]Feature Extraction:  45%|████▌     | 18/40 [05:58<08:58, 24.47s/it]Feature Extraction:  48%|████▊     | 19/40 [06:05<06:43, 19.21s/it]Feature Extraction:  50%|█████     | 20/40 [06:10<05:01, 15.08s/it]Feature Extraction:  52%|█████▎    | 21/40 [06:14<03:43, 11.76s/it]Feature Extraction:  55%|█████▌    | 22/40 [06:16<02:39,  8.86s/it]Feature Extraction:  57%|█████▊    | 23/40 [06:22<02:14,  7.93s/it]Feature Extraction:  60%|██████    | 24/40 [06:33<02:20,  8.77s/it]Feature Extraction:  62%|██████▎   | 25/40 [07:47<07:07, 28.48s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:00<05:32, 23.77s/it]Feature Extraction:  68%|██████▊   | 27/40 [08:07<04:06, 18.94s/it]Feature Extraction:  70%|███████   | 28/40 [08:10<02:46, 13.87s/it]Feature Extraction:  72%|███████▎  | 29/40 [08:15<02:04, 11.30s/it]Feature Extraction:  75%|███████▌  | 30/40 [08:24<01:47, 10.75s/it]Feature Extraction:  78%|███████▊  | 31/40 [08:28<01:18,  8.72s/it]Feature Extraction:  80%|████████  | 32/40 [08:30<00:52,  6.50s/it]Feature Extraction:  82%|████████▎ | 33/40 [09:41<03:01, 25.99s/it]Feature Extraction:  85%|████████▌ | 34/40 [09:50<02:05, 20.99s/it]Feature Extraction:  88%|████████▊ | 35/40 [09:55<01:20, 16.08s/it]Feature Extraction:  90%|█████████ | 36/40 [10:07<00:59, 14.88s/it]Feature Extraction:  92%|█████████▎| 37/40 [10:11<00:34, 11.49s/it]Feature Extraction:  95%|█████████▌| 38/40 [10:12<00:16,  8.40s/it]Feature Extraction:  98%|█████████▊| 39/40 [10:20<00:08,  8.34s/it]Feature Extraction: 100%|██████████| 40/40 [10:21<00:00,  6.13s/it]Feature Extraction: 100%|██████████| 40/40 [10:21<00:00, 15.54s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [00:32<21:14, 32.68s/it]Feature Extraction:   5%|▌         | 2/40 [00:33<08:49, 13.94s/it]Feature Extraction:   8%|▊         | 3/40 [00:34<04:54,  7.96s/it]Feature Extraction:  10%|█         | 4/40 [00:37<03:41,  6.16s/it]Feature Extraction:  12%|█▎        | 5/40 [00:39<02:36,  4.46s/it]Feature Extraction:  15%|█▌        | 6/40 [00:41<02:06,  3.72s/it]Feature Extraction:  18%|█▊        | 7/40 [01:05<05:37, 10.22s/it]Feature Extraction:  20%|██        | 8/40 [01:11<04:43,  8.86s/it]Feature Extraction:  22%|██▎       | 9/40 [01:13<03:30,  6.78s/it]Feature Extraction:  25%|██▌       | 10/40 [01:14<02:34,  5.15s/it]Feature Extraction:  28%|██▊       | 11/40 [01:16<02:03,  4.26s/it]Feature Extraction:  30%|███       | 12/40 [01:21<02:03,  4.41s/it]Feature Extraction:  32%|███▎      | 13/40 [01:21<01:24,  3.14s/it]Feature Extraction:  35%|███▌      | 14/40 [01:22<01:04,  2.49s/it]Feature Extraction:  38%|███▊      | 15/40 [01:40<02:57,  7.09s/it]Feature Extraction:  40%|████      | 16/40 [01:42<02:13,  5.56s/it]Feature Extraction:  42%|████▎     | 17/40 [01:46<01:55,  5.00s/it]Feature Extraction:  45%|████▌     | 18/40 [01:50<01:43,  4.71s/it]Feature Extraction:  48%|████▊     | 19/40 [01:54<01:36,  4.59s/it]Feature Extraction:  50%|█████     | 20/40 [02:04<02:04,  6.24s/it]Feature Extraction:  52%|█████▎    | 21/40 [02:08<01:46,  5.59s/it]Feature Extraction:  55%|█████▌    | 22/40 [02:10<01:20,  4.45s/it]Feature Extraction:  57%|█████▊    | 23/40 [02:21<01:48,  6.37s/it]Feature Extraction:  60%|██████    | 24/40 [02:22<01:14,  4.63s/it]Feature Extraction:  62%|██████▎   | 25/40 [02:30<01:27,  5.82s/it]Feature Extraction:  65%|██████▌   | 26/40 [02:39<01:32,  6.58s/it]Feature Extraction:  68%|██████▊   | 27/40 [02:40<01:06,  5.08s/it]Feature Extraction:  70%|███████   | 28/40 [02:44<00:55,  4.64s/it]Feature Extraction:  72%|███████▎  | 29/40 [02:48<00:51,  4.67s/it]Feature Extraction:  75%|███████▌  | 30/40 [02:50<00:38,  3.86s/it]Feature Extraction:  78%|███████▊  | 31/40 [03:02<00:56,  6.30s/it]Feature Extraction:  80%|████████  | 32/40 [03:04<00:38,  4.81s/it]Feature Extraction:  82%|████████▎ | 33/40 [03:19<00:55,  7.97s/it]Feature Extraction:  85%|████████▌ | 34/40 [03:24<00:42,  7.00s/it]Feature Extraction:  88%|████████▊ | 35/40 [03:25<00:25,  5.09s/it]Feature Extraction:  90%|█████████ | 36/40 [03:26<00:16,  4.01s/it]Feature Extraction:  92%|█████████▎| 37/40 [03:26<00:08,  2.95s/it]Feature Extraction:  95%|█████████▌| 38/40 [03:27<00:04,  2.14s/it]Feature Extraction:  98%|█████████▊| 39/40 [03:28<00:01,  1.96s/it]Feature Extraction: 100%|██████████| 40/40 [03:31<00:00,  2.18s/it]Feature Extraction: 100%|██████████| 40/40 [03:31<00:00,  5.29s/it]
+Feature Extraction:   0%|          | 0/40 [00:00<?, ?it/s]Feature Extraction:   2%|▎         | 1/40 [01:56<1:15:28, 116.11s/it]Feature Extraction:   5%|▌         | 2/40 [02:00<32:03, 50.62s/it]   Feature Extraction:   8%|▊         | 3/40 [02:05<18:07, 29.40s/it]Feature Extraction:  10%|█         | 4/40 [02:07<11:21, 18.93s/it]Feature Extraction:  12%|█▎        | 5/40 [02:09<07:18, 12.54s/it]Feature Extraction:  15%|█▌        | 6/40 [02:10<04:59,  8.80s/it]Feature Extraction:  18%|█▊        | 7/40 [02:11<03:27,  6.30s/it]Feature Extraction:  20%|██        | 8/40 [02:12<02:28,  4.65s/it]Feature Extraction:  22%|██▎       | 9/40 [03:46<16:47, 32.49s/it]Feature Extraction:  25%|██▌       | 10/40 [03:57<12:52, 25.76s/it]Feature Extraction:  28%|██▊       | 11/40 [04:01<09:13, 19.08s/it]Feature Extraction:  30%|███       | 12/40 [04:03<06:27, 13.84s/it]Feature Extraction:  32%|███▎      | 13/40 [04:12<05:34, 12.38s/it]Feature Extraction:  35%|███▌      | 14/40 [04:19<04:39, 10.76s/it]Feature Extraction:  38%|███▊      | 15/40 [04:23<03:38,  8.72s/it]Feature Extraction:  40%|████      | 16/40 [04:32<03:33,  8.88s/it]Feature Extraction:  42%|████▎     | 17/40 [05:41<10:17, 26.86s/it]Feature Extraction:  45%|████▌     | 18/40 [06:05<09:35, 26.17s/it]Feature Extraction:  48%|████▊     | 19/40 [06:10<06:55, 19.78s/it]Feature Extraction:  50%|█████     | 20/40 [06:13<04:54, 14.73s/it]Feature Extraction:  52%|█████▎    | 21/40 [06:14<03:21, 10.62s/it]Feature Extraction:  55%|█████▌    | 22/40 [06:21<02:53,  9.66s/it]Feature Extraction:  57%|█████▊    | 23/40 [06:33<02:56, 10.37s/it]Feature Extraction:  60%|██████    | 24/40 [06:35<02:02,  7.68s/it]Feature Extraction:  62%|██████▎   | 25/40 [07:38<06:06, 24.41s/it]Feature Extraction:  65%|██████▌   | 26/40 [08:06<05:54, 25.35s/it]Feature Extraction:  68%|██████▊   | 27/40 [08:12<04:14, 19.60s/it]Feature Extraction:  70%|███████   | 28/40 [08:25<03:31, 17.66s/it]Feature Extraction:  72%|███████▎  | 29/40 [08:29<02:27, 13.39s/it]Feature Extraction:  75%|███████▌  | 30/40 [08:32<01:44, 10.49s/it]Feature Extraction:  78%|███████▊  | 31/40 [08:38<01:21,  9.02s/it]Feature Extraction:  80%|████████  | 32/40 [08:40<00:54,  6.85s/it]Feature Extraction:  82%|████████▎ | 33/40 [09:33<02:26, 20.86s/it]Feature Extraction:  85%|████████▌ | 34/40 [09:55<02:06, 21.13s/it]Feature Extraction:  88%|████████▊ | 35/40 [10:09<01:34, 18.94s/it]Feature Extraction:  90%|█████████ | 36/40 [10:16<01:01, 15.42s/it]Feature Extraction:  92%|█████████▎| 37/40 [10:17<00:33, 11.11s/it]Feature Extraction:  95%|█████████▌| 38/40 [10:19<00:16,  8.30s/it]Feature Extraction:  98%|█████████▊| 39/40 [10:26<00:07,  7.88s/it]Feature Extraction: 100%|██████████| 40/40 [10:28<00:00,  6.30s/it]Feature Extraction: 100%|██████████| 40/40 [10:28<00:00, 15.72s/it]
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_tx__autocorrelation__lag_9' 'bt_tx__partial_autocorrelation__lag_4'
+ 'bt_tx__partial_autocorrelation__lag_5'
+ 'bt_tx__partial_autocorrelation__lag_6'
+ 'bt_tx__partial_autocorrelation__lag_7'
+ 'bt_tx__partial_autocorrelation__lag_8'
+ 'bt_tx__partial_autocorrelation__lag_9'
+ 'bt_tx__ar_coefficient__coeff_0__k_10'
+ 'bt_tx__ar_coefficient__coeff_1__k_10'
+ 'bt_tx__ar_coefficient__coeff_2__k_10'
+ 'bt_tx__ar_coefficient__coeff_3__k_10'
+ 'bt_tx__ar_coefficient__coeff_4__k_10'
+ 'bt_tx__ar_coefficient__coeff_5__k_10'
+ 'bt_tx__ar_coefficient__coeff_6__k_10'
+ 'bt_tx__ar_coefficient__coeff_7__k_10'
+ 'bt_tx__ar_coefficient__coeff_8__k_10'
+ 'bt_tx__ar_coefficient__coeff_9__k_10'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_tx__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_tx__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_tx__query_similarity_count__query_None__threshold_0.0'
+ 'bt_tx__matrix_profile__feature_"min"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"max"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"mean"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"75"__threshold_0.98'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"real"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"imag"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"abs"__coeff_99'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_26'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_27'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_28'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_29'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_30'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_31'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_32'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_33'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_34'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_35'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_36'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_37'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_38'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_39'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_40'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_41'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_42'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_43'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_44'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_45'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_46'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_47'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_48'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_49'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_50'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_51'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_52'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_53'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_54'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_55'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_56'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_57'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_58'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_59'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_60'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_61'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_62'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_63'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_64'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_65'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_66'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_67'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_68'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_69'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_70'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_71'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_72'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_73'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_74'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_75'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_76'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_77'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_78'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_79'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_80'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_81'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_82'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_83'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_84'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_85'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_86'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_87'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_88'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_89'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_90'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_91'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_92'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_93'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_94'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_95'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_96'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_97'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_98'
+ 'bt_time__fft_coefficient__attr_"angle"__coeff_99'
+ 'bt_time__fft_aggregated__aggtype_"skew"'
+ 'bt_time__fft_aggregated__aggtype_"kurtosis"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"rvalue"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"intercept"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"slope"__chunk_len_50__f_agg_"var"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"max"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"min"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"mean"'
+ 'bt_time__agg_linear_trend__attr_"stderr"__chunk_len_50__f_agg_"var"'
+ 'bt_time__query_similarity_count__query_None__threshold_0.0'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_rx__query_similarity_count__query_None__threshold_0.0'
+ 'bt_time__query_similarity_count__query_None__threshold_0.0'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
+/work/hwei/HaowenWeiDeepLearning/CWINSProject/SignalFeatureExtraction/SignalFeatureExtraction_venv/lib/python3.7/site-packages/tsfresh/utilities/dataframe_functions.py:172: RuntimeWarning: The columns ['bt_rx__mean_second_derivative_central' 'bt_rx__skewness'
+ 'bt_rx__kurtosis' ...
+ 'bt_tx__matrix_profile__feature_"median"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"25"__threshold_0.98'
+ 'bt_tx__matrix_profile__feature_"75"__threshold_0.98'] did not have any finite values. Filling with zeros.
+  df.iloc[:, np.where(is_col_non_finite)[0]].columns.values), RuntimeWarning)
