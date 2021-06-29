@@ -2,8 +2,9 @@ clear
 %-----
 % 6/26/21 modified to work with large feature set
 % 
-load('/home/osemenov/work/FeatureExtractDIR/SignalFeatureExtraction/feature_data/all_train_features.mat')
-load('/home/osemenov/work/FeatureExtractDIR/SignalFeatureExtraction/feature_data/all_test_features.mat')
+
+load('../feature_data/all_train_features.mat')
+load('../feature_data/all_test_features.mat')
 % load('train_acc_user11cff2.mat') 
 % load('train_gyro_user11cff2.mat') 
 % load('train_bt_user11cff2.mat') 
