@@ -2,6 +2,7 @@ clear
 %-----
 % 6/26/21 modified to work with large feature set
 % 
+% load('../feature_data/test_acc_user11cff2.mat') 
 load('../feature_data/all_train_features.mat')
 load('../feature_data/all_test_features.mat')
 % load('train_acc_user11cff2.mat') 
@@ -14,11 +15,11 @@ load('../feature_data/all_test_features.mat')
 % %randomly shufle the data
 acc_dat_test = table(acc_x_test, acc_y_test, acc_z_test);
 gyro_dat_test = table(gyro_x_test, gyro_y_test, gyro_z_test);
-bt_dat_test = table(bt_rx_test, bt_time_test);
+bt_dat_test = table(bt_rx_test); %, bt_time_test
 
 acc_dat_train = table(acc_x_train, acc_y_train, acc_z_train);
 gyro_dat_train = table(gyro_x_train, gyro_y_train, gyro_z_train);
-bt_dat_train = table(bt_rx_train, bt_time_train);
+bt_dat_train = table(bt_rx_train); %bt_time_train)
 
 h = height(acc_dat_test);
 idx = randperm(h);
