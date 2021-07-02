@@ -18,4 +18,4 @@ module purge
 module load gcc/6.3.0 slurm/17.02.11 matlab/R2020a
 
 
-matlab -nojvm -nodisplay -nosplash < regrassion_pact8.m
+matlab -nojvm -nodisplay -nosplash < regrassion_pact9.m

@@ -5,13 +5,13 @@ clear
 % load('../feature_data/test_acc_user11cff2.mat') 
 load('../feature_data/all_train_features.mat')
 load('../feature_data/all_test_features.mat')
-% load('train_acc_user11cff2.mat') 
-% load('train_gyro_user11cff2.mat') 
-% load('train_bt_user11cff2.mat') 
-% 
-% load('test_acc_user11cff2.mat') 
-% load('test_gyro_user11cff2.mat') 
-% load('test_bt_user11cff2.mat') 
+load('train_acc_user11cf.mat') 
+load('train_gyro_user11cf.mat') 
+load('train_bt_user11cf.mat') 
+
+load('test_acc_user11cf.mat') 
+load('test_gyro_user11cf.mat') 
+load('test_bt_user11cf.mat') 
 % %randomly shufle the data
 acc_dat_test = table(acc_x_test, acc_y_test, acc_z_test);
 gyro_dat_test = table(gyro_x_test, gyro_y_test, gyro_z_test);
@@ -40,20 +40,20 @@ idx1 = randperm(h1);
 bt_data_train_rand = bt_dat_train(idx1,:);
 
 %accelerometer
-acc_norm_train = featureNormalize2(acc_data_train_rand.acc_stats, "Zscale");
-acc_norm_test = featureNormalize2(acc_data_test_rand.acc_stats, "Zscale");
+acc_norm_train = featureNormalize2(acc_data_train_rand, "Zscale");
+acc_norm_test = featureNormalize2(acc_data_test_rand, "Zscale");
 
 acc_train_range= acc_data_train_rand.acc_range;
 acc_test_range= acc_data_test_rand.acc_range;   
 %gyroscope
-gyro_norm_train = featureNormalize2(gyro_data_train_rand.gyro_stats, "Zscale");
-gyro_norm_test = featureNormalize2(gyro_data_test_rand.gyro_stats, "Zscale");
+gyro_norm_train = featureNormalize2(gyro_data_train_rand, "Zscale");
+gyro_norm_test = featureNormalize2(gyro_data_test_rand, "Zscale");
 
 gyro_train_range = gyro_data_train_rand.gyro_range;
 gyro_test_range = gyro_data_test_rand.gyro_range;  
 %bluetooth
-bt_norm_train = featureNormalize2(bt_data_train_rand.bt_stats, "Zscale"); %(:,1:23)
-bt_norm_test = featureNormalize2(bt_data_test_rand.bt_stats, "Zscale"); %(:,1:23)
+bt_norm_train = featureNormalize2(bt_data_train_rand, "Zscale"); %(:,1:23)
+bt_norm_test = featureNormalize2(bt_data_test_rand, "Zscale"); %(:,1:23)
 
 bt_train_range = bt_data_train_rand.bt_range;
 bt_test_range = bt_data_test_rand.bt_range;
