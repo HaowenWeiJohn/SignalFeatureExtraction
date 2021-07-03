@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 SignalFeatureExtraction_venv/
 /feature_data/
+/feature_data/*
 feature_data/
