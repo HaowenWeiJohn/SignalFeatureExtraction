@@ -1,0 +1,60 @@
+{Error using sum
+Invalid data type. First argument must be numeric or logical.
+
+Error in mean (line 127)
+        y = sum(x, dim, flag) ./ mysize(x,dim);
+
+Error in featureNormalize2 (line 10)
+    temp = bsxfun(@minus, X, mean(X));
+} 
+{Error using sum
+Invalid data type. First argument must be numeric or logical.
+
+Error in mean (line 127)
+        y = sum(x, dim, flag) ./ mysize(x,dim);
+
+Error in featureNormalize2 (line 10)
+    temp = bsxfun(@minus, X, mean(X));
+} 
+{Error using sum
+Invalid data type. First argument must be numeric or logical.
+
+Error in mean (line 127)
+        y = sum(x, dim, flag) ./ mysize(x,dim);
+
+Error in featureNormalize2 (line 10)
+    temp = bsxfun(@minus, X, mean(X));
+} 
+{Error using sum
+Invalid data type. First argument must be numeric or logical.
+
+Error in mean (line 127)
+        y = sum(x, dim, flag) ./ mysize(x,dim);
+
+Error in featureNormalize2 (line 10)
+    temp = bsxfun(@minus, X, mean(X));
+} 
+{Unrecognized function or variable 'acc_norm_train'.
+} 
+{Unrecognized function or variable 'gyro_norm_train'.
+} 
+{Unrecognized function or variable 'Mdl_acc_reg'.
+} 
+{Unrecognized function or variable 'Mdl_gyro_reg'.
+} 
+{Unrecognized function or variable 'fitted_acc'.
+} 
+{Unrecognized function or variable 'fitted_gyro'.
+} 
+{Unrecognized function or variable 'mse_acc'.
+} 
+{Unrecognized function or variable 'results_reg'.
+} 
+{Unrecognized function or variable 'fitted_acc'.
+} 
+{Unrecognized function or variable 'fitted_gyro'.
+} 
+{Unrecognized function or variable 'F1_acc'.
+} 
+{Unrecognized function or variable 'results_b'.
+} 
