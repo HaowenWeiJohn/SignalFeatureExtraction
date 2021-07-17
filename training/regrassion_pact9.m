@@ -34,7 +34,16 @@ h = height(acc_dat_train);
 idx = randperm(h);
 acc_data_train_rand = acc_dat_train(idx,:);
 gyro_data_train_rand = gyro_dat_train(idx,:);
+%convert table to matrix
+acc_data_train_rand = acc_data_train_rand{:,:};
+acc_data_test_rand = acc_data_test_rand{:,:};
 
+gyro_data_train_rand = gyro_data_train_rand{:,:};
+gyro_data_test_rand = gyro_data_test_rand{:,:};
+%------------
+% only features that are not 0 
+% acc_n0_idx_train= find(sum(acc_norm_train));
+%------------
 %accelerometer
 acc_norm_train = featureNormalize2(acc_data_train_rand, "Zscale");
 acc_norm_test = featureNormalize2(acc_data_test_rand, "Zscale");
