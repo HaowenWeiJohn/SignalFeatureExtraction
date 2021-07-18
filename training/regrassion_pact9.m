@@ -40,10 +40,7 @@ acc_data_test_rand = acc_data_test_rand{:,:};
 
 gyro_data_train_rand = gyro_data_train_rand{:,:};
 gyro_data_test_rand = gyro_data_test_rand{:,:};
-%------------
-% only features that are not 0 
-% acc_n0_idx_train= find(sum(acc_norm_train));
-%------------
+
 %accelerometer
 acc_norm_train = featureNormalize2(acc_data_train_rand, "Zscale");
 acc_norm_test = featureNormalize2(acc_data_test_rand, "Zscale");
@@ -51,7 +48,16 @@ acc_norm_test = featureNormalize2(acc_data_test_rand, "Zscale");
 %gyroscope
 gyro_norm_train = featureNormalize2(gyro_data_train_rand, "Zscale");
 gyro_norm_test = featureNormalize2(gyro_data_test_rand, "Zscale");
+%------------
+% only features that are not 0 
+acc_n0_idx_train= find(sum(acc_norm_train));
+acc_norm_train = acc_norm_train(:,acc_n0_idx_train);
+acc_norm_test = acc_norm_test(:, acc_n0_idx_train);
 
+gyro_n0_idx_train= find(sum(gyro_norm_train));
+gyro_norm_train = gyro_norm_train(:,gyro_n0_idx_train);
+gyro_norm_test = gyro_norm_test(:, gyro_n0_idx_train);
+%------------
 %----------------------------------------------------------------%
 %regrassion on range 
 % predNames = {'Mean', 'STD', 'M3', 'M4', '25%', '50%', '75%',...
