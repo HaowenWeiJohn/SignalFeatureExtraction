@@ -132,3 +132,10 @@ results_b = table(b_methods', [F1_acc BA_acc]', [F1_gyro BA_gyro]',...
 
 writetable(results_b, 'results_pact_LOO_manyFeat_6feetBest_user11.xlsx');
 
+acc_imp = predictorImportance(Mdl_acc_reg); %.Trained{1}
+
+gyro_imp = predictorImportance(Mdl_gyro_reg); %.Trained{1}
+
+imp_pred = table(acc_n0_idx_train', acc_imp', gyro_n0_idx_train', gyro_imp');
+
+writetable(imp_pred, 'results_predImp.xlsx');
