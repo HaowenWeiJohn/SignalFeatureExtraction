@@ -136,6 +136,9 @@ acc_imp = predictorImportance(Mdl_acc_reg); %.Trained{1}
 
 gyro_imp = predictorImportance(Mdl_gyro_reg); %.Trained{1}
 
-imp_pred = table(acc_n0_idx_train', acc_imp', gyro_n0_idx_train', gyro_imp');
+imp_pred = table(acc_n0_idx_train', acc_imp');
+
+imp_pred_gyro = table(gyro_n0_idx_train', gyro_imp');
 
 writetable(imp_pred, 'results_predImp.xlsx');
+writetable(imp_pred_gyro, 'results_predImp_gyro.xlsx');
